@@ -1,0 +1,84 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+h2 {
+    color: white;
+    font-size:x-large;
+    padding-top: 25px;
+}
+
+.pelicula p {
+    color: rgb(219, 219, 219);
+    font-size: medium;
+}
+
+.estrellas {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -65px;
+    z-index: 1;
+}
+
+.text-warning {
+    color: rgb(126, 92, 158);
+}
+
+.detalles {
+    position: absolute; /* Coloca el acordeón en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%; /* Opcional, para que ocupe todo el ancho */
+    display: none; /* Oculta el acordeón por defecto */
+    background-color: white;
+    z-index: 10;
+  }
+
+.close-button {
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  .detalles-button {
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+.accordion-texto {
+    margin-left: 20px;
+    margin-top: -50px;
+  }
